@@ -3,720 +3,793 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abaya Qismina Dewasa Muslimah - Elegant & Luxury</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Unisex Trekking Shoes - Premium Outdoor Experience | Navaofficial Store</title>
+    <meta name="description" content="Lightweight Breathable Summer Trekking Shoes Unisex - Non-Slip Quick-Dry Drainage Technology. Diskon Spesial Rp150.000! Order Sekarang!">
+    <meta name="keywords" content="trekking shoes, sepatu hiking, sepatu outdoor, sepatu unisex, quick dry shoes">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://navaofficial.com/unisex-trekking-shoes">
+    <meta property="og:title" content="Unisex Trekking Shoes - Premium Outdoor Experience">
+    <meta property="og:description" content="Diskon 43% - Lightweight Breathable Summer Trekking Shoes dengan teknologi drainage terbaru">
+    <meta property="og:image" content="https://img.kwcdn.com/product/fancy/61d65ff5-729c-4e38-a5ef-6edcc919533b.jpg">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <style>
         :root {
-            --primary: #F8C8DC;
-            --secondary: #E2AFDE;
-            --accent: #D4A5A5;
-            --text: #5A5A5A;
-            --light: #FFF9FB;
-            --dark: #3A3A3A;
-            --gold: #D4AF37;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            --black: #000000;
+            --charcoal: #36454f;
+            --gold: #d4af37;
+            --champagne: #f7e7ce;
+            --white: #ffffff;
         }
         
         body {
-            background-color: var(--light);
-            color: var(--text);
-            line-height: 1.6;
+            font-family: 'Open Sans', sans-serif;
+            scroll-behavior: smooth;
         }
         
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
+        .font-cormorant {
+            font-family: 'Cormorant Garamond', serif;
         }
         
-        /* Header */
-        header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            padding: 20px 0;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
         
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+        .gradient-overlay {
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(54, 69, 79, 0.6) 100%);
         }
         
-        .logo {
-            font-size: 24px;
-            font-weight: 700;
-            color: var(--light);
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        .gold-gradient {
+            background: linear-gradient(135deg, var(--gold) 0%, #f7e7ce 50%, var(--gold) 100%);
+            background-size: 200% 200%;
+            animation: shimmer 3s ease-in-out infinite;
         }
         
-        .cta-button {
-            background-color: var(--accent);
-            color: white;
-            padding: 10px 25px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
         }
         
-        .cta-button:hover {
-            background-color: var(--dark);
-            transform: translateY(-2px);
+        .hero-image {
+            background: url('https://nava.orderonline.id/unisex-trekking-shoes') center/cover;
         }
         
-        /* Hero Section */
-        .hero {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            padding: 60px 0;
-            text-align: center;
-            color: white;
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
         }
         
-        .hero h1 {
-            font-size: 42px;
-            margin-bottom: 20px;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-        }
-        
-        .hero p {
-            font-size: 20px;
-            max-width: 800px;
-            margin: 0 auto 30px;
-        }
-        
-        .price-container {
-            background-color: white;
-            display: inline-block;
-            padding: 20px 40px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-        }
-        
-        .original-price {
-            text-decoration: line-through;
-            color: var(--text);
-            font-size: 24px;
-        }
-        
-        .discounted-price {
-            color: var(--accent);
-            font-size: 36px;
-            font-weight: 700;
-        }
-        
-        .discount-badge {
-            background-color: var(--gold);
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-weight: 600;
-            display: inline-block;
-            margin-left: 10px;
-        }
-        
-        .countdown {
-            font-size: 24px;
-            margin: 20px 0;
-            font-weight: 600;
-        }
-        
-        /* Product Gallery */
-        .gallery {
-            padding: 60px 0;
-        }
-        
-        .gallery h2 {
-            text-align: center;
-            margin-bottom: 40px;
-            font-size: 32px;
-            color: var(--dark);
-        }
-        
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-        
-        .gallery-item {
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-        }
-        
-        .gallery-item:hover {
-            transform: scale(1.03);
-        }
-        
-        .gallery-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        
-        /* Features */
-        .features {
-            padding: 60px 0;
-            background-color: white;
-        }
-        
-        .features h2 {
-            text-align: center;
-            margin-bottom: 40px;
-            font-size: 32px;
-            color: var(--dark);
-        }
-        
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-        }
-        
-        .feature-item {
-            text-align: center;
-            padding: 30px 20px;
-            border-radius: 10px;
-            background-color: var(--light);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        }
-        
-        .feature-icon {
-            font-size: 40px;
-            color: var(--accent);
-            margin-bottom: 20px;
-        }
-        
-        .feature-item h3 {
-            margin-bottom: 15px;
-            color: var(--dark);
-        }
-        
-        /* Testimonials */
-        .testimonials {
-            padding: 60px 0;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-        }
-        
-        .testimonials h2 {
-            text-align: center;
-            margin-bottom: 40px;
-            font-size: 32px;
-        }
-        
-        .testimonial-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-        
-        .testimonial-item {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            color: var(--text);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-        }
-        
-        .testimonial-text {
-            font-style: italic;
-            margin-bottom: 20px;
-        }
-        
-        .testimonial-author {
-            font-weight: 600;
-            color: var(--dark);
-        }
-        
-        .stars {
-            color: var(--gold);
-            margin-bottom: 10px;
-        }
-        
-        /* FAQ */
-        .faq {
-            padding: 60px 0;
-        }
-        
-        .faq h2 {
-            text-align: center;
-            margin-bottom: 40px;
-            font-size: 32px;
-            color: var(--dark);
-        }
-        
-        .faq-item {
-            margin-bottom: 20px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
-        }
-        
-        .faq-question {
-            font-weight: 600;
-            font-size: 20px;
-            margin-bottom: 10px;
-            color: var(--dark);
-        }
-        
-        /* CTA Section */
-        .cta-section {
-            padding: 80px 0;
-            text-align: center;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-        }
-        
-        .cta-section h2 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-        
-        .cta-section p {
-            font-size: 20px;
-            max-width: 800px;
-            margin: 0 auto 40px;
-        }
-        
-        .big-button {
-            background-color: var(--accent);
-            color: white;
-            padding: 15px 40px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 20px;
-            transition: all 0.3s ease;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-            display: inline-block;
-        }
-        
-        .big-button:hover {
-            background-color: var(--dark);
-            transform: translateY(-3px);
-            box-shadow: 0 12px 20px rgba(0,0,0,0.3);
-        }
-        
-        /* Footer */
-        footer {
-            background-color: var(--dark);
-            color: white;
-            padding: 40px 0 20px;
-        }
-        
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-            margin-bottom: 40px;
-        }
-        
-        .footer-column h3 {
-            margin-bottom: 20px;
-            font-size: 18px;
-        }
-        
-        .footer-column ul {
-            list-style: none;
-        }
-        
-        .footer-column ul li {
-            margin-bottom: 10px;
-        }
-        
-        .footer-column ul li a {
-            color: #ccc;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        
-        .footer-column ul li a:hover {
-            color: white;
-        }
-        
-        .social-links {
-            display: flex;
-            gap: 15px;
-        }
-        
-        .social-links a {
-            color: white;
-            font-size: 20px;
-            transition: color 0.3s ease;
-        }
-        
-        .social-links a:hover {
-            color: var(--primary);
-        }
-        
-        .copyright {
-            text-align: center;
-            padding-top: 20px;
-            border-top: 1px solid #444;
-            color: #aaa;
-            font-size: 14px;
-        }
-        
-        /* Popup */
-        .popup {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-            max-width: 300px;
-            transform: translateY(150%);
-            transition: transform 0.5s ease;
-            z-index: 1000;
-        }
-        
-        .popup.show {
+        .fade-in.visible {
+            opacity: 1;
             transform: translateY(0);
         }
         
-        .popup-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
+        .parallax {
+            transform: translateY(0);
+            transition: transform 0.1s ease-out;
         }
         
-        .popup-close {
-            background: none;
-            border: none;
-            font-size: 20px;
+        .size-chart {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .size-chart.active {
+            max-height: 500px;
+        }
+        
+        .color-option {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
             cursor: pointer;
-            color: var(--text);
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
         }
         
-        .popup-content {
-            display: flex;
-            align-items: center;
+        .color-option.selected {
+            border-color: var(--gold);
+            transform: scale(1.1);
         }
         
-        .popup-img {
-            width: 60px;
-            height: 60px;
-            border-radius: 5px;
-            margin-right: 15px;
-            object-fit: cover;
+        .color-option:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
         
-        .popup-text {
-            font-size: 14px;
+        .sticky-cta {
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
         }
         
-        .popup-text strong {
-            color: var(--accent);
+        .sticky-cta.show {
+            transform: translateY(0);
+        }
+        
+        /* OrderOnline Custom Styling */
+        .orderonline-embed-form {
+            background: rgba(255, 255, 255, 0.05) !important;
+            backdrop-filter: blur(20px) !important;
+            border-radius: 20px !important;
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            padding: 40px !important;
+            margin: 20px 0 !important;
+        }
+        
+        .ooef-loader {
+            background: rgba(0, 0, 0, 0.8) !important;
+            border-radius: 20px !important;
         }
         
         /* Responsive */
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 32px;
+            .hero-section {
+                height: 100vh;
             }
             
-            .hero p {
-                font-size: 18px;
+            .font-cormorant {
+                font-size: 2.5rem !important;
             }
-            
-            .price-container {
-                padding: 15px 30px;
-            }
-            
-            .original-price {
-                font-size: 20px;
-            }
-            
-            .discounted-price {
-                font-size: 28px;
-            }
+        }
+        
+        /* Loading Animation */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--black);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid var(--charcoal);
+            border-top: 3px solid var(--gold);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
     </style>
 </head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container header-content">
-            <div class="logo">Abaya Qismina</div>
-            <a href="#order" class="cta-button">Pesan Sekarang</a>
+<body class="bg-black text-white">
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-effect">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="font-cormorant text-2xl font-bold text-gold">Navaofficial</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="hover:text-gold transition">Fitur</a>
+                    <a href="#gallery" class="hover:text-gold transition">Galeri</a>
+                    <a href="#reviews" class="hover:text-gold transition">Ulasan</a>
+                    <a href="#order" class="bg-gold text-black px-6 py-2 rounded-full hover:bg-opacity-80 transition">Pesan Sekarang</a>
+                </div>
+                <button class="md:hidden" id="mobileMenuBtn">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
         </div>
-    </header>
-    
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="fixed inset-0 z-40 bg-black bg-opacity-95 hidden">
+        <div class="flex justify-end p-6">
+            <button id="closeMobileMenu" class="text-white text-3xl">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="flex flex-col items-center space-y-8 text-xl">
+            <a href="#features" class="hover:text-gold transition">Fitur</a>
+            <a href="#gallery" class="hover:text-gold transition">Galeri</a>
+            <a href="#reviews" class="hover:text-gold transition">Ulasan</a>
+            <a href="#order" class="bg-gold text-black px-8 py-3 rounded-full hover:bg-opacity-80 transition">Pesan Sekarang</a>
+        </div>
+    </div>
+
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1>Abaya Qismina Dewasa Muslimah</h1>
-            <p>Elegant & Luxury - Tampil anggun dengan detail bordir emas premium yang mewah</p>
-            
-            <div class="price-container">
-                <span class="original-price">Rp445.000</span>
-                <span class="discounted-price">Rp245.000</span>
-                <span class="discount-badge">Diskon 45%</span>
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 hero-image parallax"></div>
+        <div class="absolute inset-0 gradient-overlay"></div>
+        
+        <div class="relative z-10 text-center max-w-4xl mx-auto px-4" data-aos="fade-up">
+            <h1 class="font-cormorant text-5xl md:text-7xl font-bold mb-6">
+                <span class="text-white">Unisex</span> <span class="text-gold">Trekking Shoes</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-gray-300">
+                Lightweight • Breathable • Quick-Dry Technology
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button onclick="scrollToOrder()" class="gold-gradient text-black px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition">
+                    Pesan Sekarang - Rp199.999
+                </button>
+                <button onclick="scrollToFeatures()" class="border border-gold text-gold px-8 py-4 rounded-full font-bold text-lg hover:bg-gold hover:text-black transition">
+                    Lihat Fitur
+                </button>
             </div>
-            
-            <div class="countdown" id="countdown">
-                Promo berakhir dalam: 23:59:59
-            </div>
-            
-            <a href="#order" class="cta-button">Dapatkan Sekarang</a>
-        </div>
+            <div class="mt-12 flex justify-center space-x-8 text-sm">
+                <div class="flex items-center">
+                    <i class="fas fa-shield-alt text-gold mr-2"></i>
+                    <span>Garansi 30 Hari</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-truck text-gold mr-2"></i>
+                    <span>Pengiriman Cepat</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-undo text-gold mr-2"></i>
+                    <span>Easy Return</span>
+                </div>
     </section>
-    
-    <!-- Product Gallery -->
-    <section class="gallery">
-        <div class="container">
-            <h2>Galeri Produk</h2>
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="https://cdn.orderonline.id/uploads/images_6217421750595683690.jpeg" alt="Abaya Qismina Model 1">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://cdn.orderonline.id/uploads/images_5151491750595682922.jpeg" alt="Abaya Qismina Model 2">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://cdn.orderonline.id/uploads/images_8080851750595683993.jpeg" alt="Abaya Qismina Model 3">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://cdn.orderonline.id/uploads/images_6839561750595683944.jpeg" alt="Abaya Qismina Model 4">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://cdn.orderonline.id/uploads/images_8897541750595682978.jpeg" alt="Abaya Qismina Model 5">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://cdn.orderonline.id/uploads/images_4829401750595682954.jpeg" alt="Abaya Qismina Model 6">
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Features -->
-    <section class="features">
-        <div class="container">
-            <h2>Keunggulan Abaya Qismina</h2>
-            <div class="feature-grid">
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-tshirt"></i>
-                    </div>
-                    <h3>Bahan Premium</h3>
-                    <p>Dibuat dari bahan Chiffon Rose yang ringan dan mengalir anggun, dilapisi sepenuhnya dengan jersey lembut untuk kenyamanan maksimal.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-spa"></i>
-                    </div>
-                    <h3>Desain Elegan</h3>
-                    <p>Potongan A-line yang mengalir indah saat Anda berjalan dengan desain lapisan ruffle yang menciptakan siluet yang anggun.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-crown"></i>
-                    </div>
-                    <h3>Detail Mewah</h3>
-                    <p>Detail bordir emas premium di ujung lengan dan lapisan abaya menambahkan sentuhan mewah namun halus.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-gift"></i>
-                    </div>
-                    <h3>Paket Lengkap</h3>
-                    <p>Dilengkapi dengan syal tangan yang serasi, terbuat dari kain yang sama dan dihiasi dengan aksen emas.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <div class="container">
-            <h2>Apa Kata Pelanggan Kami?</h2>
-            <div class="testimonial-grid">
-                <div class="testimonial-item">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-text">"Abayanya sangat nyaman dipakai dan bahannya adem. Bordir emasnya bikin tampilan jadi lebih mewah. Recomended banget!"</p>
-                    <p class="testimonial-author">- Siti Aisyah, Jakarta</p>
-                </div>
-                <div class="testimonial-item">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-text">"Pas banget buat acara pernikahan teman. Banyak yang nanya beli dimana. Pelayanannya juga cepat dan ramah."</p>
-                    <p class="testimonial-author">- Rina Dewi, Bandung</p>
-                </div>
-                <div class="testimonial-item">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <p class="testimonial-text">"Desainnya feminin banget dan jatuhnya pas di badan. Udah beli 2 warna karena diskonnya menggiurkan."</p>
-                    <p class="testimonial-author">- Maya Fitriani, Surabaya</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- FAQ -->
-    <section class="faq" id="faq">
-        <div class="container">
-            <h2>Pertanyaan yang Sering Diajukan</h2>
-            <div class="faq-item">
-                <h3 class="faq-question">Apa saja ukuran yang tersedia?</h3>
-                <p>Abaya Qismina tersedia dalam ukuran S, M, L, dan XL dengan cutting yang nyaman dan sesuai untuk tubuh wanita Asia.</p>
-            </div>
-            <div class="faq-item">
-                <h3 class="faq-question">Berapa lama waktu pengiriman?</h3>
-                <p>Waktu pengiriman 2-4 hari kerja untuk wilayah Jawa dan 3-7 hari kerja untuk luar Jawa setelah pembayaran dikonfirmasi.</p>
-            </div>
-            <div class="faq-item">
-                <h3 class="faq-question">Apakah bisa return atau tukar ukuran?</h3>
-                <p>Kami menerima penukaran ukuran dalam waktu 7 hari setelah barang diterima dengan syarat tag masih terpasang dan belum dicuci.</p>
-            </div>
-            <div class="faq-item">
-                <h3 class="faq-question">Metode pembayaran apa saja yang tersedia?</h3>
-                <p>Kami menerima transfer bank (BCA, Mandiri, BRI), e-wallet (OVO, Dana, ShopeePay), dan pembayaran via gerai retail (Alfamart, Indomaret).</p>
-            </div>
-        </div>
-    </section>
-    
-    <!-- CTA Section -->
-    <section class="cta-section" id="order">
-        <div class="container">
-            <h2>Jangan Lewatkan Kesempatan Ini!</h2>
-            <p>Dapatkan Abaya Qismina dengan diskon 45% hanya hari ini. Stok terbatas!</p>
-            
-            <div class="price-container" style="margin-bottom: 30px;">
-                <span class="original-price">Rp445.000</span>
-                <span class="discounted-price">Rp245.000</span>
-                <span class="discount-badge">Diskon 45%</span>
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="font-cormorant text-4xl md:text-5xl font-bold mb-4">Galeri Produk</h2>
+                <p class="text-gray-400 text-lg">Lihat detail setiap sudut sepatu premium kami</p>
             </div>
             
-            <a href="https://nava.orderonline.id/abaya-qismina-dewasa-muslimah" class="big-button">Pesan Sekarang</a>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="col-span-1 md:col-span-2 lg:col-span-2 row-span-2" data-aos="fade-up">
+                    <img src="https://img.kwcdn.com/product/fancy/61d65ff5-729c-4e38-a5ef-6edcc919533b.jpg" alt="Trekking Shoes Main" class="w-full h-full object-cover rounded-2xl cursor-pointer hover:scale-105 transition">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="col-span-1 md:col-span-2 lg:col-span-2 row-span-2" data-aos="fade-up">
+                    <img src="https://m.media-amazon.com/images/I/61zWyMQbhIS._AC_SX679_.jpg" alt="Trekking Shoes Main" class="w-full h-full object-cover rounded-2xl cursor-pointer hover:scale-105 transition">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="col-span-1 md:col-span-2 lg:col-span-2 row-span-2" data-aos="fade-up">
+                    <img src="https://s.alicdn.com/@sc04/kf/Hd1ab13e60be84b4eb68d2c87569a50c6P.jpg_720x720q50.jpg" alt="Trekking Shoes Main" class="w-full h-full object-cover rounded-2xl cursor-pointer hover:scale-105 transition">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="col-span-1 md:col-span-2 lg:col-span-2 row-span-2" data-aos="fade-up">
+                    <img src="https://m.media-amazon.com/images/I/610glS32A+S._AC_SX679_.jpg" alt="Trekking Shoes Main" class="w-full h-full object-cover rounded-2xl cursor-pointer hover:scale-105 transition">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="col-span-1 md:col-span-2 lg:col-span-2 row-span-2" data-aos="fade-up">
+                    <img src="https://m.media-amazon.com/images/I/61PHpcSd6qS._AC_SX679_.jpg" alt="Trekking Shoes Main" class="w-full h-full object-cover rounded-2xl cursor-pointer hover:scale-105 transition">
+                </div>
+            </div>
         </div>
     </section>
-    
+
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gradient-to-b from-black to-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="font-cormorant text-4xl md:text-5xl font-bold mb-4">Fitur Premium</h2>
+                <p class="text-gray-400 text-lg">Teknologi terbaru untuk pengalaman outdoor terbaik</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-gold rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-feather text-2xl text-black"></i>
+                    </div>
+                    <h3 class="font-cormorant text-2xl font-bold mb-3">Ultra Lightweight</h3>
+                    <p class="text-gray-400">Hanya 200gr per sepatu - ringan seperti bulu untuk kenyamanan maksimal</p>
+                </div>
+                
+                <div class="glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-gold rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-wind text-2xl text-black"></i>
+                    </div>
+                    <h3 class="font-cormorant text-2xl font-bold mb-3">Breathable Technology</h3>
+                    <p class="text-gray-400">Ventilasi optimal untuk kaki tetap sehat dan nyaman saat aktif beraktivitas</p>
+                </div>
+                
+                <div class="glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-gold rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-tint text-2xl text-black"></i>
+                    </div>
+                    <h3 class="font-cormorant text-2xl font-bold mb-3">Quick-Dry System</h3>
+                    <p class="text-gray-400">Teknologi drainase cepat - kering dalam 30 menit setelah terkena air</p>
+                </div>
+                
+                <div class="glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-16 h-16 bg-gold rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-shoe-prints text-2xl text-black"></i>
+                    </div>
+                    <h3 class="font-cormorant text-2xl font-bold mb-3">Non-Slip Sole</h3>
+                    <p class="text-gray-400">Tekstur karet anti-slip untuk trekking di berbagai medan - aman di gunung maupun pantai</p>
+                </div>
+                
+                <div class="glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="500">
+                    <div class="w-16 h-16 bg-gold rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-eye text-2xl text-black"></i>
+                    </div>
+                    <h3 class="font-cormorant text-2xl font-bold mb-3">Five-Toe Design</h3>
+                    <p class="text-gray-400">Desain lima jari memberikan fleksibilitas alami seperti berjalan telanjang kaki</p>
+                </div>
+                
+                <div class="glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="600">
+                    <div class="w-16 h-16 bg-gold rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-male text-2xl text-black"></i>
+                    </div>
+                    <h3 class="font-cormorant text-2xl font-bold mb-3">Unisex Fit</h3>
+                    <p class="text-gray-400">Dirancang untuk pria dan wanita - tersedia ukuran 36-46</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-20 bg-gradient-to-b from-gray-900 to-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="font-cormorant text-4xl md:text-5xl font-bold mb-4">Apa Kata Mereka</h2>
+                <p class="text-gray-400 text-lg">Testimoni nyata dari pelanggan kami</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-effect p-6 rounded-2xl" data-aos="fade-up">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gold rounded-full flex items-center justify-center mr-4">
+                            <span class="font-bold text-black">AR</span>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Andi Rahman</h4>
+                            <div class="text-gold">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-400">"Sangat ringan dan nyaman! Saya gunakan untuk hiking di Bromo dan kaki tetap kering walau lewati sungai kecil."</p>
+                </div>
+                
+                <div class="glass-effect p-6 rounded-2xl" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gold rounded-full flex items-center justify-center mr-4">
+                            <span class="font-bold text-black">SF</span>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Siti Fatimah</h4>
+                            <div class="text-gold">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-400">"Warna pinknya lucu banget! Saya ukuran 37 pas di kaki. Anti slipnya juga bagus untuk medan licin."</p>
+                </div>
+                
+                <div class="glass-effect p-6 rounded-2xl" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gold rounded-full flex items-center justify-center mr-4">
+                            <span class="font-bold text-black">BW</span>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Budi Wijaya</h4>
+                            <div class="text-gold">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-400">"Saya ukuran 42 dan sangat nyaman. Sudah dipakai 3 bulan masih bagus banget. Recommended!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-20 bg-black">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div data-aos="fade-up">
+                <h2 class="font-cormorant text-4xl md:text-5xl font-bold mb-4">Penawaran Terbatas</h2>
+                <p class="text-gray-400 text-lg mb-8">Diskon 43% hanya untuk hari ini!</p>
+                
+                <div class="glass-effect p-8 rounded-2xl inline-block">
+                    <div class="mb-4">
+                        <span class="text-3xl text-gray-500 line-through">Rp349.999</span>
+                    </div>
+                    <div class="mb-6">
+                        <span class="text-5xl font-bold text-gold">Rp199.999</span>
+                    </div>
+                    <div id="countdown" class="text-2xl font-bold text-white mb-6">
+                        <span id="hours">23</span>:<span id="minutes">59</span>:<span id="seconds">59</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="py-20 bg-gradient-to-b from-gray-900 to-black">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="font-cormorant text-4xl md:text-5xl font-bold mb-4">Pesan Sekarang</h2>
+                <p class="text-gray-400 text-lg">Pilih warna dan ukuran favorit Anda</p>
+            </div>
+            
+            <!-- Color Selection -->
+            <div class="mb-8" data-aos="fade-up">
+                <h3 class="text-xl font-semibold mb-4">Pilih Warna:</h3>
+                <div class="flex justify-center space-x-4">
+                    <div class="color-option bg-black selected" data-color="black" title="Black"></div>
+                    <div class="color-option bg-white" data-color="white" title="White"></div>
+                    <div class="color-option bg-blue-900" data-color="navy" title="Navy"></div>
+                    <div class="color-option bg-gray-500" data-color="grey" title="Grey"></div>
+                    <div class="color-option bg-pink-400" data-color="pink" title="Pink (Wanita Only)"></div>
+                </div>
+            </div>
+            
+            <!-- Size Guide -->
+            <div class="text-center mb-8" data-aos="fade-up">
+                <button onclick="toggleSizeChart()" class="text-gold underline hover:no-underline">
+                    Lihat Panduan Ukuran
+                </button>
+                <div id="sizeChart" class="size-chart mt-4">
+                    <div class="glass-effect p-4 rounded-lg">
+                        <table class="w-full text-sm">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">Ukuran</th>
+                                    <th class="text-left">Panjang Kaki</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>36</td><td>23.0 cm</td></tr>
+                                <tr><td>37</td><td>23.5 cm</td></tr>
+                                <tr><td>38</td><td>24.0 cm</td></tr>
+                                <tr><td>39</td><td>24.5 cm</td></tr>
+                                <tr><td>40</td><td>25.0 cm</td></tr>
+                                <tr><td>41</td><td>25.5 cm</td></tr>
+                                <tr><td>42</td><td>26.0 cm</td></tr>
+                                <tr><td>43</td><td>26.5 cm</td></tr>
+                                <tr><td>44</td><td>27.0 cm</td></tr>
+                                <tr><td>45</td><td>27.5 cm</td></tr>
+                                <tr><td>46</td><td>28.0 cm</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- OrderOnline Form -->
+            <div data-aos="fade-up">
+                <div class="ooef">
+                    <form class="orderonline-embed-form" data-username="nava" data-product-slug="unisex-trekking-shoes" data-product-id="6890f38f164315b5cf012f4b" id="oo-embed-form-unisex-trekking-shoes-7806" data-origin="orderonline">
+                        <div class="ooef-loader">
+                            <style>
+                                .ooef-loader {
+                                    visibility: hidden;
+                                    opacity: 0;
+                                    position: absolute;
+                                    left: 0;
+                                    right: 0;
+                                    top: 0;
+                                    bottom: 0;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    animation: ooLoadingIn 10s ease;
+                                    -webkit-animation: ooLoadingIn 10s ease;
+                                    animation-fill-mode: forwards;
+                                    overflow: hidden;
+                                }
+                                @keyframes ooLoadingIn {
+                                    0% { visibility: hidden; opacity: 0; }
+                                    20% { visibility: visible; opacity: 0; }
+                                    100% { visibility: visible; opacity: 1; }
+                                }
+                                @-webkit-keyframes ooLoadingIn {
+                                    0% { visibility: hidden; opacity: 0; }
+                                    20% { visibility: visible; opacity: 0; }
+                                    100% { visibility: visible; opacity: 1; }
+                                }
+                                .ooef-loader>div, .ooef-loader>div:after {
+                                    border-radius: 50%;
+                                    width: 2.5rem;
+                                    height: 2.5rem;
+                                }
+                                .ooef-loader>div {
+                                    font-size: 10px;
+                                    position: relative;
+                                    text-indent: -9999em;
+                                    border: .25rem solid #f5f5f5;
+                                    border-left: .25rem solid #d4af37;
+                                    -webkit-transform: translateZ(0);
+                                    -ms-transform: translateZ(0);
+                                    transform: translateZ(0);
+                                    -webkit-animation: ooLoading 1.1s infinite linear;
+                                    animation: ooLoading 1.1s infinite linear;
+                                }
+                                .ooef-loader.error>div {
+                                    border-left: .25rem solid #ff4500;
+                                    animation-duration: 5s;
+                                }
+                                @-webkit-keyframes ooLoading {
+                                    0% { -webkit-transform: rotate(0); transform: rotate(0); }
+                                    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+                                }
+                                @keyframes ooLoading {
+                                    0% { -webkit-transform: rotate(0); transform: rotate(0); }
+                                    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+                                }
+                            </style>
+                            <div aria-live="polite" role="status">
+                                <div>Loading...</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Tentang Kami</h3>
-                    <p>Menghadirkan busana muslimah berkualitas tinggi dengan desain elegan dan harga terjangkau.</p>
+    <footer class="bg-black border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-cormorant text-2xl font-bold text-gold mb-4">Navaofficial Store</h3>
+                    <p class="text-gray-400">Toko online terpercaya untuk produk outdoor berkualitas premium.</p>
                 </div>
-                <div class="footer-column">
-                    <h3>Kontak</h3>
-                    <ul>
-                        <li><i class="fas fa-phone"></i> 0852-3669-9497</li>
-                        <li><i class="fas fa-envelope"></i> cs@abayaqismina.com</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</li>
+                <div>
+                    <h4 class="font-semibold mb-4">Produk</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-gold transition">Sepatu Trekking</a></li>
+                        <li><a href="#" class="hover:text-gold transition">Peralatan Outdoor</a></li>
+                        <li><a href="#" class="hover:text-gold transition">Aksesoris</a></li>
                     </ul>
                 </div>
-                <div class="footer-column">
-                    <h3>Link Cepat</h3>
-                    <ul>
-                        <li><a href="#order">Pesan Sekarang</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#">Syarat & Ketentuan</a></li>
-                        <li><a href="#">Kebijakan Privasi</a></li>
+                <div>
+                    <h4 class="font-semibold mb-4">Layanan</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-gold transition">Customer Service</a></li>
+                        <li><a href="#" class="hover:text-gold transition">Pengembalian</a></li>
+                        <li><a href="#" class="hover:text-gold transition">Garansi</a></li>
                     </ul>
                 </div>
-                <div class="footer-column">
-                    <h3>Follow Kami</h3>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-tiktok"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <div>
+                    <h4 class="font-semibold mb-4">Hubungi Kami</h4>
+                    <p class="text-gray-400">WhatsApp: 081252355305</p>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#" class="text-gray-400 hover:text-gold transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gold transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gold transition">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="copyright">
-                &copy; 2023 Abaya Qismina. All Rights Reserved.
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Navaofficial Store. All rights reserved.</p>
             </div>
         </div>
     </footer>
-    
-    <!-- Popup -->
-    <div class="popup" id="popup">
-        <div class="popup-header">
-            <h4>Promo Spesial!</h4>
-            <button class="popup-close" id="popup-close">&times;</button>
-        </div>
-        <div class="popup-content">
-            <img src="https://cdn.orderonline.id/uploads/images_6217421750595683690.jpeg" alt="Abaya Qismina" class="popup-img">
-            <div class="popup-text">
-                <strong>Diskon 45% Hari Ini!</strong> Dapatkan Abaya Qismina dengan harga Rp245.000 saja. Stok terbatas!
-            </div>
-        </div>
+
+    <!-- Sticky CTA -->
+    <div id="stickyCTA" class="fixed bottom-4 right-4 z-50 sticky-cta">
+        <button onclick="scrollToOrder()" class="gold-gradient text-black px-6 py-3 rounded-full font-bold shadow-lg">
+            <i class="fas fa-shopping-cart mr-2"></i>
+            Pesan Sekarang
+        </button>
     </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        // Loading Overlay
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                document.getElementById('loadingOverlay').style.opacity = '0';
+                setTimeout(() => {
+                    document.getElementById('loadingOverlay').style.display = 'none';
+                }, 500);
+            }, 1000);
+        });
+
+        // Mobile Menu
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const closeMobileMenu = document.getElementById('closeMobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => mobileMenu.classList.remove('hidden'));
+        closeMobileMenu.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+
+        // Smooth Scroll
+        function scrollToOrder() {
+            document.getElementById('order').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function scrollToFeatures() {
+            document.getElementById('features').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Sticky CTA
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY;
+            const stickyCTA = document.getElementById('stickyCTA');
+            
+            if (scrollY > 300) {
+                stickyCTA.classList.add('show');
+            } else {
+                stickyCTA.classList.remove('show');
+            }
+        });
+
         // Countdown Timer
         function updateCountdown() {
             const now = new Date();
-            const endOfDay = new Date();
-            endOfDay.setHours(23, 59, 59, 0);
+            const endOfDay = new Date(now);
+            endOfDay.setHours(23, 59, 59, 999);
             
             const diff = endOfDay - now;
             
-            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const hours = Math.floor(diff / (1000 * 60 * 60));
             const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((diff % (1000 * 60)) / 1000);
             
-            document.getElementById('countdown').textContent = 
-                `Promo berakhir dalam: ${Math.floor(hours)}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
         }
-        
+
         setInterval(updateCountdown, 1000);
         updateCountdown();
-        
-        // Popup
-        setTimeout(() => {
-            document.getElementById('popup').classList.add('show');
-        }, 5000);
-        
-        document.getElementById('popup-close').addEventListener('click', () => {
-            document.getElementById('popup').classList.remove('show');
-        });
-        
-        // Smooth scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+
+        // Color Selection
+        const colorOptions = document.querySelectorAll('.color-option');
+        colorOptions.forEach(option => {
+            option.addEventListener('click', function() {
+                colorOptions.forEach(opt => opt.classList.remove('selected'));
+                this.classList.add('selected');
             });
         });
+
+        // Size Chart Toggle
+        function toggleSizeChart() {
+            const sizeChart = document.getElementById('sizeChart');
+            sizeChart.classList.toggle('active');
+        }
+
+        // Parallax Effect
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('.parallax');
+            if (parallax) {
+                parallax.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+
+        // Fade In Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // OrderOnline Integration
+        (function() {
+            var script = document.createElement('script');
+            script.src = 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4';
+            script.async = true;
+            document.head.appendChild(script);
+        })();
+    </script>
+
+    <!-- OrderOnline Embed Script -->
+    <script>
+        if (typeof xLogError != 'function') {
+            var xLogError = function (error) {
+                var req = new XMLHttpRequest();
+                var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                req.open('POST', 'https://api.orderonline.id/log', true);
+                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                req.send(params);
+            };
+        }
+        
+        try {
+            if (typeof xEmbedScript != 'function') {
+                var xEmbedScript = function () {
+                    !function(w, d, e, v, id, t, s) {
+                        if (d.getElementById(id)) return;
+                        t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                        s = d.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
+                    }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                };
+            }
+            
+            if (typeof xEmbedInit != 'function') {
+                var xEmbedInit = function (w, n) {
+                    if (w.ooe) return;
+                    n = w.ooe = function() { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) };
+                    if (!w._ooe) w._ooe = n; n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                };
+            }
+            
+            xEmbedInit(window);
+            ooe('setup', 'redirect', 'https://nava.orderonline.id');
+            ooe('init', '5f119cd08dcbdb2737678706', '6890f38f164315b5cf012f4b', '6890f38f164315b5cf012f4c', 'oo-embed-form-unisex-trekking-shoes-7806', {
+                "mode": "page",
+                "action": "Klik untuk pemesanan",
+                "title": "Form Pemesanan",
+                "triggerPixel": true,
+                "triggerGtm": false
+            });
+            
+            if (!window.jQuery) {
+                !function(w, d, e, v, id, t, s) {
+                    if (d.getElementById(id)) return;
+                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                    t.addEventListener('load', xEmbedScript);
+                    s = d.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
+                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+            } else {
+                xEmbedScript();
+            }
+        } catch (e) {
+            xLogError(e);
+            throw e;
+        }
     </script>
 </body>
 </html>
